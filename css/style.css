@@ -5,11 +5,12 @@ body {
 #header {
   background: #7450fc;
   padding: 30px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #header-img {
-  width: 200px;
+  width: 20%;
 }
 
 ul {
@@ -17,17 +18,16 @@ ul {
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  justify-content: flex-end;
 }
 
 a {
   text-decoration: none;
   color: white;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
